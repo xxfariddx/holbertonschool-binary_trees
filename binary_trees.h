@@ -21,5 +21,7 @@ typedef struct binary_tree_s binary_tree_t;
 
 /* creates a parent node */
 binary_tree_t *binary_tree_node(binary_tree_t *parent, int value);
+/* inserts a node as a left child of another node */
+binary_tree_t *binary_tree_insert_left(binary_tree_t *parent, int value);
 
 #endif
