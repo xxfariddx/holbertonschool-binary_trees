@@ -31,5 +31,7 @@ void binary_tree_delete(binary_tree_t *tree);
 int binary_tree_is_leaf(const binary_tree_t *node);
 /* checks if the node is root */
 int binary_tree_is_root(const binary_tree_t *node);
+/* prints binary tree in traversal order */
+void binary_tree_preorder(const binary_tree_t *tree, void (*func)(int));
 
 #endif
